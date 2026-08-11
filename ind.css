@@ -1,9 +1,21 @@
+/* =========================================================
+   FUENTES
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+/* =========================================================
+   CONFIGURACIÓN GENERAL
+   ========================================================= */
 
 body {
     background-color: white;
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
+      color: #4f5428;
 }
 
 * {
@@ -12,9 +24,10 @@ body {
     box-sizing: border-box;
 }
 
-/* =========================
+
+/* =========================================================
    HEADER
-   ========================= */
+   ========================================================= */
 
 header {
     background-color: white;
@@ -22,6 +35,7 @@ header {
     padding: 15px;
     font-size: 24px;
     font-weight: bold;
+    
 }
 
 .header-content {
@@ -61,9 +75,11 @@ header {
 }
 
 .header-nav a {
-    color: black;
+     color: #4f5428;
     text-decoration: none;
     white-space: nowrap;
+
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -128,9 +144,9 @@ header {
 }
 
 
-/* =========================
+/* =========================================================
    TABLAS
-   ========================= */
+   ========================================================= */
 
 table {
     width: 100%;
@@ -140,6 +156,8 @@ table {
     border-collapse: collapse;
 
     font-size: 24px;
+
+    font-family: "Cormorant Garamond", serif;
 }
 
 th,
@@ -150,11 +168,52 @@ td {
 
     text-align: center;
 }
+table h1{
+      color: #4f5428;
+}
+
+/* =========================================================
+   TÍTULOS DE LA PÁGINA
+   ========================================================= */
+
+/*
+   Para títulos principales que quieras destacar:
+   puedes utilizar class="section-title"
+*/
+
+.section-title {
+    width: 100%;
+
+    text-align: center;
+
+    margin: 30px 0 20px;
+
+    padding: 0 10px;
+}
+
+.section-title h1,
+.section-title h2 {
+    font-family: "Cormorant Garamond", serif;
+
+    font-weight: 600;
+
+    color: #4f5428;
+
+    margin: 0;
+}
+
+.section-title h1 {
+    font-size: 48px;
+}
+
+.section-title h2 {
+    font-size: 42px;
+}
 
 
-/* =========================
+/* =========================================================
    CARRUSEL
-   ========================= */
+   ========================================================= */
 
 .carousel-container {
 
@@ -222,9 +281,9 @@ button {
 }
 
 
-/* =========================
+/* =========================================================
    CUADROS DE PRODUCTOS
-   ========================= */
+   ========================================================= */
 
 .grid-container {
 
@@ -276,6 +335,16 @@ button {
     padding: 20px;
 
     width: 100%;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+.content h2 {
+    font-family: "Cormorant Garamond", serif;
+
+    font-weight: 600;
+
+    margin: 0;
 }
 
 .box button {
@@ -307,9 +376,9 @@ button {
 }
 
 
-/* =========================
+/* =========================================================
    AJUSTES PARA MÓVIL
-   ========================= */
+   ========================================================= */
 
 @media (max-width: 768px) {
 
@@ -341,12 +410,20 @@ button {
     .content h2 {
         font-size: 20px;
     }
+
+    .section-title h1 {
+        font-size: 40px;
+    }
+
+    .section-title h2 {
+        font-size: 36px;
+    }
 }
 
 
-/* =========================
+/* =========================================================
    TELÉFONOS PEQUEÑOS
-   ========================= */
+   ========================================================= */
 
 @media (max-width: 420px) {
 
@@ -364,5 +441,13 @@ button {
 
     .content h2 {
         font-size: 18px;
+    }
+
+    .section-title h1 {
+        font-size: 36px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
     }
 }
