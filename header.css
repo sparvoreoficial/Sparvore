@@ -13,7 +13,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-
+     padding-top: 110px;
     background-color: #F9F2EC;
 
     /*
@@ -21,7 +21,7 @@ body {
        Cambia la ruta si tu imagen está
        en otra carpeta.
     */
-    background-image: url("../img/header1.png");
+    background-image: url("header1.png");
 
     background-size: 100% auto;
     background-position: top center;
@@ -68,7 +68,7 @@ body {
 
     width: 100%;
 
-    min-height: 140px;
+    min-height: 110px;
 
     display: flex;
 
@@ -181,12 +181,25 @@ body {
 
 @media (max-width: 768px) {
 
-    .site-header {
+  .site-header {
+    position: fixed;
 
-        position: fixed;
+    top: 0;
+    left: 0;
 
-        background: transparent;
-    }
+    width: 100%;
+
+    background-color: #F9F2EC;
+    background-image: url("header1.png");
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    z-index: 1000;
+
+    box-sizing: border-box;
+}
 
 
     .header-content {
@@ -237,7 +250,26 @@ body {
    TELÉFONOS PEQUEÑOS
    ========================================================= */
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
+    .site-header {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    background-color: #F9F2EC;
+    background-image: url("header1.png");
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    z-index: 1000;
+
+    box-sizing: border-box;
+}
 
     .header-content {
 
@@ -249,8 +281,8 @@ body {
 
     .header-logo {
 
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
 
 

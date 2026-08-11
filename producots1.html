@@ -1667,6 +1667,23 @@
         function closeModal54() {
             document.getElementById('productModal54').style.display = 'none';
         }
+
+        // ======================================================
+// CERRAR MODALES AL HACER CLIC FUERA DEL CONTENIDO
+// ======================================================
+
+document.querySelectorAll('.modal, .modal2').forEach(function(modal) {
+
+    modal.addEventListener('click', function(event) {
+
+        // Si el clic fue directamente sobre el fondo
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+
+    });
+
+});
     </script>
 
 

@@ -353,7 +353,7 @@ td {
 
 .modal2 {
     display: none;
-
+    z-index: 2000;
     position: fixed;
 
     top: 0;
@@ -384,7 +384,7 @@ td {
     border-radius: 10px;
 
     width: 500px;
-
+    height: 500 px;
     position: relative;
 
     justify-content: center;
@@ -437,7 +437,7 @@ td {
 
 .modal {
     display: none;
-
+    z-index: 2000;
     position: fixed;
 
     top: 0;
@@ -590,7 +590,7 @@ td {
 
 .modal3 {
     display: none;
-
+    z-index: 2000;
     position: fixed;
 
     top: 0;
@@ -621,7 +621,7 @@ td {
     border-radius: 10px;
 
     width: 500px;
-    height: 700px;
+    height: 500px;
 
     position: relative;
 
@@ -631,8 +631,8 @@ td {
 }
 
 .modal-content3 img {
-    width: 450px;
-    height: 300px;
+    width: 330px;
+    height: 200px;
 
     border-radius: 10px;
 }
