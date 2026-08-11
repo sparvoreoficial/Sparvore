@@ -7,9 +7,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html,
 body {
-    background-color: white;
+    background-color: #FAECDF !important;
+}
+body {
+     background-color: #FAECDF;
     font-family: "Montserrat", sans-serif;
     text-align: center;
     color: #333;
@@ -26,7 +29,7 @@ a {
    ========================================================= */
 
 header {
-    background-color: white;
+     background-color: #FAECDF;
     width: 100%;
     padding: 15px;
     font-size: 24px;
@@ -213,8 +216,7 @@ td {
 .product-card {
     width: 320px;
 
-    background: white;
-
+     background-color: #FAECDF;
     padding: 15px;
 
     border-radius: 10px;
@@ -277,7 +279,7 @@ td {
 
 .product-card-2 {
     width: 250px;
-
+ background-color: #FAECDF;
     aspect-ratio: 1 / 1;
 
     display: flex;
@@ -375,7 +377,7 @@ td {
 
     text-align: center;
 
-    background: white;
+    background-color: #FAECDF;
 
     padding: 15px;
 
@@ -451,7 +453,7 @@ td {
 }
 
 .modal-content {
-    background: white;
+    background-color: #FAECDF;
 
     padding: 20px;
 
@@ -612,7 +614,7 @@ td {
 
     text-align: center;
 
-    background: white;
+     background-color: #FAECDF;
 
     padding: 15px;
 

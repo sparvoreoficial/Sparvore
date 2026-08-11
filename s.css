@@ -7,13 +7,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html,
 body {
-    background-color: white;
+    background-color: #FAECDF !important;
+}
+body {
+    background-color: #FAECDF;
     font-family: "Montserrat", sans-serif;
     text-align: center;
     color: #333;
 }
+
 
 a {
     color: black;
@@ -42,7 +46,7 @@ a {
    ========================================================= */
 
 header {
-    background-color: white;
+    background-color: #FAECDF;
     width: 100%;
     padding: 15px;
     font-size: 24px;
@@ -232,7 +236,7 @@ table {
 
     border: none;
     border-collapse: collapse;
-
+background-color: #FAECDF;
     font-size: 24px;
 }
 
@@ -259,7 +263,7 @@ td {
     display: flex;
     flex-direction: column;
 
-    background-color: white;
+    background-color: #FAECDF;
 
     padding: 10px;
 
@@ -370,7 +374,7 @@ td {
 
     text-align: center;
 
-    background: white;
+    background: #FAECDF;
 
     padding: 15px;
 
