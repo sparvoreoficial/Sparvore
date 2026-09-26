@@ -374,6 +374,17 @@ button {
     color: white;
 }
 
+.box-servicios {
+    background-image: url("img/serv/masaje_relajate.jpg");
+}
+
+.box-personal {
+    background-image: url("img/p1/Natura/manteca hidratante corporal ekos.jpg");
+}
+
+.box-electronicos {
+    background-image: url("img/p2/Cojin de semillas.jpg");
+}
 
 /* =========================================================
    AJUSTES PARA MÓVIL
